@@ -10,8 +10,9 @@ import SwiftUI
 @main
 struct LLMContextorApp: App {
     var body: some Scene {
-        WindowGroup {
+        MenuBarExtra("LLM", systemImage: "brain") {
             ContentView()
         }
+        .menuBarExtraStyle(.window)
     }
 }
